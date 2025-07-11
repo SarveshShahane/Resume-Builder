@@ -40,13 +40,40 @@ npm run dev
 
 ## Project Structure
 
+
 ```
-src/
-├── components/
-│   ├── forms/          # Form components for data input
-│   └── preview/        # Resume preview components
-├── App.jsx            # Main application component
-└── main.jsx          # Application entry point
+
+Resume Builder/
+├── src/
+│   ├── components/
+│   │   ├── forms/              # Form components for data input
+│   │   │   ├── AchievementsForm.jsx
+│   │   │   ├── EducationForm.jsx
+│   │   │   ├── ExperienceForm.jsx
+│   │   │   ├── HeaderForm.jsx
+│   │   │   ├── ObjectiveForm.jsx
+│   │   │   ├── ProjectsForm.jsx
+│   │   │   └── SkillsForm.jsx
+│   │   └── preview/            # Resume preview components
+│   │       ├── AchievementsPreview.jsx
+│   │       ├── EducationPreview.jsx
+│   │       ├── ExperiencePreview.jsx
+│   │       ├── HeaderPreview.jsx
+│   │       ├── ObjectivePreview.jsx
+│   │       ├── ProjectsPreview.jsx
+│   │       ├── ResumePreview.jsx
+│   │       └── SkillsPreview.jsx
+│   ├── App.jsx                 # Main application component
+│   ├── App.css                 # Application styles
+│   ├── index.css               # Global styles
+│   └── main.jsx                # Application entry point
+├── public/                     # Static assets
+├── index.html                  # HTML template
+├── package.json                # Dependencies and scripts
+├── tailwind.config.js          # Tailwind CSS configuration
+├── vite.config.js              # Vite configuration
+└── README.md                   # Project documentation
+
 ```
 
 ## Known Issues & Contributions Welcome
