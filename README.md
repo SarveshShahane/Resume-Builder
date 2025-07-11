@@ -22,7 +22,7 @@ A modern React-based resume builder application that allows users to create prof
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/SarveshShahane/Resume-Builder
 cd resume-builder
 ```
 
